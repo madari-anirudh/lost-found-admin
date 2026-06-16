@@ -4,7 +4,7 @@ import './Login.css';
 
 export default function Login() {
     // --- UI States ---
-    const [modalState, setModalState] = useState('hidden'); // 'hidden', 'entering', 'entered', 'exiting'
+    const [modalState, setModalState] = useState('hidden');
     const [isLoading, setIsLoading] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
 
